@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "disabled-hc"
+version = "0.1.0"
+description = ""
+authors = ["ryuji-hashimoto0110"]
+readme = "README.md"
+packages = [{include = "disabled_hc"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+torch = "^2.0.1"
+opencv-python = "^4.7.0.72"
+gym = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
